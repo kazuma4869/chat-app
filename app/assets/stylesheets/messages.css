@@ -38,6 +38,8 @@
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .room {
@@ -82,6 +84,8 @@
   background-color: #FAFAFA;
   height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
+  overflow: scroll;
+  overflow: hidden;
 }
 
 .message {
@@ -109,7 +113,7 @@
 
 .message-content {
   color: #434a54;
-  font-size: 14px;
+  font-size: 14spx;
   margin-bottom: 40px;
 }
 
